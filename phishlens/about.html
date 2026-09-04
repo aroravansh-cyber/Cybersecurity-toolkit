@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — PhishGuard AI</title>
+<link rel="icon" type="image/svg+xml" href="assets/icon-placeholder.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/logo-placeholder.svg" alt="PhishGuard AI logo" class="brand-logo">
+      <span class="brand-name">PhishGuard AI</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Analyzer</a>
+      <a href="about.html" aria-current="page">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+
+  <div class="page-header">
+    <h1>About</h1>
+    <p>The developer behind this project, and how the analyzer works.</p>
+  </div>
+
+  <section class="panel">
+    <h2>About the Developer</h2>
+    <div class="dev-block">
+      <div class="dev-photo">[ IMAGE PLACEHOLDER ]</div>
+      <div>
+        <p class="dev-name">Vansh Arora</p>
+        <p class="dev-role">B.Tech Cybersecurity Student</p>
+        <p class="dev-bio">Interested in cybersecurity, ethical hacking, artificial intelligence, and machine learning.</p>
+        <div class="dev-links">
+          <a href="#" class="btn" id="github-link">GitHub</a>
+          <a href="#" class="btn" id="linkedin-link">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>About PhishGuard AI</h2>
+
+    <div class="about-block">
+      <h2>What is phishing?</h2>
+      <p>Phishing emails impersonate trusted senders to trick recipients into revealing credentials, making payments, or clicking malicious links. They often rely on urgency, authority, and familiar branding to bypass a reader's judgment.</p>
+    </div>
+
+    <div class="about-block">
+      <h2>Why detection matters</h2>
+      <p>Phishing remains one of the most common entry points for account compromise and data breaches. Catching the warning signs in a message before acting on it can prevent credential theft, financial loss, and further compromise.</p>
+    </div>
+
+    <div class="about-block">
+      <h2>How PhishGuard AI analyzes an email</h2>
+      <p>The analyzer is designed around a pipeline that looks at an email from several angles rather than relying on a single signal:</p>
+      <ul class="pipeline-list">
+        <li><strong>NLP and machine learning</strong> — language patterns associated with phishing, such as urgency and impersonation.</li>
+        <li><strong>Sender analysis</strong> — checking the sender address for signs of spoofing or mismatched domains.</li>
+        <li><strong>Subject analysis</strong> — flagging subject lines that use pressure tactics or misleading claims.</li>
+        <li><strong>Email body analysis</strong> — scanning content for suspicious phrasing and credential requests.</li>
+        <li><strong>URL analysis</strong> — inspecting links for suspicious domains or masking.</li>
+        <li><strong>Risk scoring</strong> — combining signals into an overall risk score and confidence level.</li>
+        <li><strong>Explainable detection</strong> — surfacing the specific reasons behind a verdict, instead of a black-box result.</li>
+      </ul>
+    </div>
+
+    <div class="about-block">
+      <h2>Current status</h2>
+      <p>The interface currently runs on mock analysis logic for demonstration. It is structured so the mock function can be replaced with a call to a FastAPI backend running the actual NLP and machine learning pipeline.</p>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>PhishGuard AI — B.Tech Cybersecurity project.</p>
+</footer>
+
+</body>
+</html>
