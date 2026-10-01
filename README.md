@@ -4,7 +4,7 @@
 
 <br>
 
-# 🛡️ Cybersecurity Toolkit
+## Cybersecurity Toolkit
 
 **A collection of Python-based tools for cybersecurity learning and authorized security testing.**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 📖 About
+## About
 
 A lightweight **Python cybersecurity toolkit** focused on network scanning, reconnaissance, security analysis, and automation.
 
@@ -20,7 +20,7 @@ A lightweight **Python cybersecurity toolkit** focused on network scanning, reco
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 > 🔴 **Educational & Authorized Use Only**
 >
